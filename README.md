@@ -15,7 +15,7 @@
         $csv->startBuffer();
 
         // Add headings row
-        $csv->addRow("Name", "Age", "Gender");
+        $csv->addRow($headings);
 
         // Add data rows
         foreach($data as $d) {
